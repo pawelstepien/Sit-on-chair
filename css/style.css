@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.eot');
+	src: local('../fonts/Raleway'), local('Raleway-Regular'),
+		url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Raleway-Regular.woff') format('woff'),
+		url('../fonts/Raleway-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: "Raleway", Arial, sans-serif;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.container{
+    width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+	border: 2px solid red;
+}
+header .logo{
+	float: left;
+}
+header nav>ul{
+	float: right;
+	list-style: none;
+}
+header nav>ul li{
+	display: inline-block;
+}
+/*Do poprawy, wycentrowanie*/
+.half-container{
+	width: 50%;
+	float: left;
+}
+#photos div>div{
+	width: 329px;
+	float: left;
+	border: 2px solid grey;
+	margin: 30px;
+}
+
+
+footer .left{
+	float: left;
+}
+footer .right{
+	float: right;
+
+}
