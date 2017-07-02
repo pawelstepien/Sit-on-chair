@@ -345,18 +345,21 @@ h3{
 
 #contact .container{
 	height: 570px;
-	padding-top: 50px;
+	padding-top: 40px;
 }
 
 #contact form{
-	padding-top: 60px;
+	padding-top: 30px;
 }
 #contact input, textarea{
 	display: block;
 	width: 630px;
 	border: 1px solid #a6e3d3;
 	font-size: 28px;
+	box-sizing: border-box;
 	margin: 26px 0;
+	padding: 8px;
+
 }
 #contact input::placeholder, textarea::placeholder{
 	color: #c1c1c1;
